@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    color: lightpink;
+}
+
+h1{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+li{
+    list-style: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.box{
+    width: 50rem;
+    height: 25rem;
+    margin: 2rem auto;
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 247, 215);
+    border-radius: 10px;
+    -webkit-box-shadow: 8px 8px 0px -1px lightpink; 
+    box-shadow: 8px 8px 0px -1px lightpink;
+}
+
+.cats{
+    width: 7rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightpink;
+    border-radius: 10px;
+}
